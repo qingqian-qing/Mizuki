@@ -147,7 +147,7 @@ export const siteConfig: SiteConfig = {
 
 		homeText: {
 			enable: true,
-			title: "清浅の小屋", // 【已修正：单独一行】
+			title: "『清』『浅』の小屋", // 【已修正：单独一行】
 			switchable: true,   // 【已修正：单独一行】
 
 			subtitle: [
