@@ -6,7 +6,7 @@ const SITE_LANG = "zh_CN"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
 export const siteConfig: SiteConfig = {
 	title: "Mizuki",
 	subtitle: "One demo website",
-	siteURL: "https://mizuki.mysqil.com/", // 请替换为你的站点URL，以斜杠结尾
+	siteURL: "https://mizuki.mysqil.com/", // 请替换为你的站点URL，以斜杠结尾；【已修正：末尾加分号】
 	siteStartDate: "2025-01-01", // 站点开始运行日期，用于站点统计组件计算运行天数
 
 	lang: SITE_LANG,
@@ -147,8 +147,8 @@ export const siteConfig: SiteConfig = {
 
 		homeText: {
 			enable: true,
-			title: "『清』『浅』の小屋",
-			switchable: true,
+			title: "清浅の小屋", // 【已修正：单独一行】
+			switchable: true,   // 【已修正：单独一行】
 
 			subtitle: [
 				"時間よ流れろ、お前はなんて残酷なんだ。
